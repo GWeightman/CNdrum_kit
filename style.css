@@ -1,0 +1,41 @@
+body{
+    background: url(image/drum_kit.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.board{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: 10px;
+}
+#keys{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.inputBoxes{
+    border: solid rgba(209, 158, 90, 0.5);
+    width: 30%;
+    height: 30%;
+    margin: 0.5%;
+    vertical-align: middle;
+    font-size: 45px;
+    background-color: rgb(210, 180, 140, 0.5);    
+}
+
+p{
+    text-align: center;    
+}
+
+.hightlight{
+    background-color: goldenrod;
+}
