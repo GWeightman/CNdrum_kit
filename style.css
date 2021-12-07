@@ -23,19 +23,33 @@ h2{
 }
 
 .inputBoxes{
+    display: flex;
+    flex-wrap: wrap;
     border: solid rgba(209, 158, 90, 0.5);
     width: 30%;
     height: 30%;
     margin: 0.5%;
-    vertical-align: middle;
-    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(210, 180, 140, 0.5);    
 }
 
 p{
-    text-align: center;    
+    font-size: 45px;
+    text-align: center;
+    width: 100%;    
+    margin: 0%;
 }
 
-.hightlight{
-    background-color: goldenrod;
+button{
+    font-size: 120%;
+    width: 50%;
+    height: 40%;
+    background-color: rgb(210, 180, 140, 0.7);
+    border: solid rgba(209, 158, 90, 0.7);
+}
+button:hover{
+    background-color: rgb(210, 180, 140);
+    border: solid rgba(209, 158, 90);
 }
